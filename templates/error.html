@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Errores</title>
+</head>
+<body>
+	<h1>ERROR</h1>
+	<h2>Descripcion: {{descripcion}}</h2>
+	<ul>
+		{% for e in elementos %}
+		  <li>{{e}}</li>
+		{%endfor%}
+	</ul>
+	<a href="{{volver}}">Regresar</a>
+</body>
+</html>
